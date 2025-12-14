@@ -23,8 +23,3 @@ def call(Map args) {
         ${context}
     """
 }
-
-
-#def call(String Project, String ImageTag){
- # sh "docker build -t ${Project}:${ImageTag} ."
-#}
